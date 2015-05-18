@@ -8,13 +8,32 @@ app.use(logger('dev', {
 }))
 
 let config = {
-  totalPosts: 200
+  totalPosts: 200,
+  maxConcurrency: 10,
+  minWaitTime: 500,
+  maxWaitTime: 1000
 }
 let concurrencyCount = 0
 
 function sleep(ms = 0) {
   return new Promise(r => setTimeout(r, ms))
 }
+
+app.get('/config', (req, res) => {
+  res.setHeader('Content-Type', 'application/json')
+  res.send(JSON.stringify(config, null, 2))
+})
+
+app.post('/config/:key/:value', (req, res) => {
+  let intValue = parseInt(req.params.value)
+  if (config.hasOwnProperty(req.params.key) && !isNaN(intValue)) {
+    config[req.params.key] = intValue
+    res.setHeader('Content-Type', 'application/json')
+    res.send(JSON.stringify(config, null, 2))
+  } else {
+    res.status(401).send('bad request')
+  }
+})
 
 app.get('/posts', (req, res) => {
   res.setHeader('Content-Type', 'application/json')
@@ -27,9 +46,13 @@ app.get('/posts', (req, res) => {
 
 app.get('/posts/:postid', wga(async (req, res) => {
   let id = parseInt(req.params.postid)
+  if (concurrencyCount == config.maxConcurrency) {
+    res.status(429).send('max concurrency reached')
+    return
+  }
   concurrencyCount++
   if (id >= 1 && id <= config.totalPosts) {
-    let sleepMs = parseInt((Math.random() * 10000000) % 1000)
+    let sleepMs = parseInt(config.minWaitTime + Math.random() * (config.maxWaitTime - config.minWaitTime))
     console.log(`current concurrency: ${concurrencyCount}, url: ${req.url}, sleep ${sleepMs}`)
     await sleep(sleepMs)
     res.send('Best article in the world, no: ' + req.params.postid)
