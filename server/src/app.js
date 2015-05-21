@@ -10,7 +10,7 @@ app.use(logger('dev', {
 let config = {
   totalPosts: 200,
   maxConcurrency: 10,
-  minWaitTime: 100,
+  minWaitTime: 20,
   maxWaitTime: 200
 }
 let concurrencyCount = 0

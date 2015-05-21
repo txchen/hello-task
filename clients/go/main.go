@@ -20,9 +20,9 @@ var throttle = make(chan int, 10)
 var results = make(chan postResult)
 
 func main() {
+	start := time.Now()
 	posts := getPostUrls()
 	fmt.Printf("there are %d posts in all.\n", len(posts))
-	start := time.Now()
 
 	for i, p := range posts {
 		index, url := i, p
