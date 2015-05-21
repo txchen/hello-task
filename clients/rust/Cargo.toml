@@ -1,0 +1,8 @@
+[package]
+name = "hello_task"
+version = "0.1.0"
+authors = ["Tianxiang Chen <txchendev@gmail.com>"]
+
+[dependencies]
+hyper = "*"
+rustc-serialize = "*"
