@@ -25,3 +25,9 @@ $ npm run server
 ### Hello task collection
 
 * [Go](clients/go)
+* [Node](clients/node)
+* [Python](clients/python)
+* [Ruby](clients/ruby)
+* [Rust](clients/rust) - Not finished
+* [Nim](clients/nim) - Not finished
+* C# - TODO
