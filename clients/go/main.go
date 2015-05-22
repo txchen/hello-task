@@ -11,68 +11,52 @@ import (
 	"time"
 )
 
-type postResult struct {
-	content string
-	index   int
-}
-
-var throttle = make(chan int, 10)
-var results = make(chan postResult)
-
 func main() {
 	start := time.Now()
 	posts := getPostUrls()
-	fmt.Printf("there are %d posts in all.\n", len(posts))
+	totalPost := len(posts)
+	fmt.Printf("there are %d posts in all.\n", totalPost)
 
+	res := make([]string, totalPost)
+	sem := make(chan int, totalPost)
+	throttle := make(chan int, 10)
 	for i, p := range posts {
-		index, url := i, p
-		go func() {
+		go func(index int, url string) {
 			throttle <- 0
-			results <- postResult{getPostMd5("http://localhost:10000" + url), index}
+			res[index] = getPostMd5("http://localhost:10000" + url)
+			sem <- 0
 			<-throttle
-		}()
+		}(i, p)
 	}
-
-	md5Map := make(map[int]string)
 	for i := 0; i < len(posts); i++ {
-		res := <-results
-		md5Map[res.index] = res.content
+		<-sem
 	}
 
-	var md5s []string
-	for i := 0; i < len(posts); i++ {
-		md5s = append(md5s, md5Map[i])
-	}
-
-	allMd5 := strings.Join(md5s, "")
+	allMd5 := strings.Join(res, "")
 	fmt.Printf("final md5: %x\n", md5.Sum([]byte(allMd5)))
 	fmt.Printf("time elapsed: %.0f\n", time.Since(start).Seconds()*1000)
 }
 
-func getPostMd5(url string) string {
+func getHTTPBody(url string) []byte {
 	response, err := http.Get(url)
 	if err != nil {
-		fmt.Printf("failed to get post: %s", err)
+		fmt.Printf("failed to get url: %s, err: %s", url, err)
 		os.Exit(1)
 	}
 	defer response.Body.Close()
 	body, _ := ioutil.ReadAll(response.Body)
-	return fmt.Sprintf("%x", md5.Sum(body))
+	return body
+}
+
+func getPostMd5(url string) string {
+	return fmt.Sprintf("%x", md5.Sum(getHTTPBody(url)))
 }
 
 func getPostUrls() []string {
-	response, err := http.Get("http://localhost:10000/posts")
+	body := getHTTPBody("http://localhost:10000/posts")
 	var data []string
-	if err != nil {
-		fmt.Printf("failed to get post list: %s", err)
-		os.Exit(1)
-	} else {
-		defer response.Body.Close()
-		body, _ := ioutil.ReadAll(response.Body)
-		err = json.Unmarshal(body, &data)
-		if err != nil {
-			panic(err.Error())
-		}
+	if err := json.Unmarshal(body, &data); err != nil {
+		panic(err.Error())
 	}
 	return data
 }
