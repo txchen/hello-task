@@ -5,4 +5,6 @@ authors = ["Tianxiang Chen <txchendev@gmail.com>"]
 
 [dependencies]
 hyper = "*"
+rust-crypto = "*"
+time = "*"
 rustc-serialize = "*"
