@@ -28,6 +28,6 @@ $ npm run server
 * [Node](clients/node)
 * [Python](clients/python)
 * [Ruby](clients/ruby)
+* [C#](clients/csharp)
 * [Rust](clients/rust) - Not finished
 * [Nim](clients/nim) - Not finished
-* C# - TODO
