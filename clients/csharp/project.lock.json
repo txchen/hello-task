@@ -1,0 +1,1855 @@
+{
+  "locked": false,
+  "version": -9998,
+  "projectFileDependencyGroups": {
+    "": [
+      "Microsoft.Net.Http.Client >= 1.0.0-beta6-10077",
+      "Newtonsoft.Json >= 7.0.1"
+    ],
+    "DNX,Version=v4.5.1": [],
+    "DNXCore,Version=v5.0": [
+      "System.Runtime >= 4.0.20-*",
+      "Microsoft.Net.Http.Client >= 1.0.0-beta6-10077"
+    ]
+  },
+  "libraries": {
+    "Microsoft.Net.Http.Client/1.0.0-beta6-10077": {
+      "serviceable": false,
+      "sha": "cjglPbTRz32I5wEtJkNeFGA+yIXupuQxEGehD3WNno7c2tb2hR1SpIaVCCJxnWFwtAFxkx1jXlrFT/q6CfjaRQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "System.Net.Http",
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
+          "runtimeAssemblies": [
+            "lib/dnx451/Microsoft.Net.Http.Client.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnx451/Microsoft.Net.Http.Client.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "Microsoft.Win32.Primitives": "4.0.0-beta-23015",
+            "System.Collections": "4.0.10-beta-23015",
+            "System.Collections.Concurrent": "4.0.0-beta-23015",
+            "System.Diagnostics.Contracts": "4.0.0-beta-23015",
+            "System.Diagnostics.Debug": "4.0.10-beta-23015",
+            "System.Diagnostics.Tools": "4.0.0-beta-23015",
+            "System.Globalization": "4.0.10-beta-23015",
+            "System.IO": "4.0.10-beta-23015",
+            "System.IO.FileSystem": "4.0.0-beta-23015",
+            "System.Linq": "4.0.0-beta-23015",
+            "System.Net.Primitives": "4.0.10-beta-23015",
+            "System.Net.Http": "4.0.0-beta-23015",
+            "System.Net.Sockets": "4.0.10-beta-23015",
+            "System.Net.Security": "4.0.0-beta-23015",
+            "System.Reflection": "4.0.10-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Runtime.Extensions": "4.0.10-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Runtime.InteropServices": "4.0.20-beta-23015",
+            "System.Security.Cryptography.X509Certificates": "4.0.0-beta-23015",
+            "System.Security.Principal": "4.0.0-beta-23015",
+            "System.Text.Encoding": "4.0.10-beta-23015",
+            "System.Text.Encoding.Extensions": "4.0.10-beta-23015",
+            "System.Threading": "4.0.0-beta-23015",
+            "System.Threading.Overlapped": "4.0.0-beta-23015",
+            "System.Threading.Tasks": "4.0.10-beta-23015",
+            "System.Threading.ThreadPool": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/dnxcore50/Microsoft.Net.Http.Client.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnxcore50/Microsoft.Net.Http.Client.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.Net.Http.Client.1.0.0-beta6-10077.nupkg",
+        "Microsoft.Net.Http.Client.1.0.0-beta6-10077.nupkg.sha512",
+        "Microsoft.Net.Http.Client.nuspec",
+        "lib/dnx451/Microsoft.Net.Http.Client.dll",
+        "lib/dnx451/Microsoft.Net.Http.Client.xml",
+        "lib/dnxcore50/Microsoft.Net.Http.Client.dll",
+        "lib/dnxcore50/Microsoft.Net.Http.Client.xml",
+        "lib/net45/Microsoft.Net.Http.Client.dll",
+        "lib/net45/Microsoft.Net.Http.Client.xml"
+      ]
+    },
+    "Microsoft.Win32.Primitives/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "BtFyDvPH4UrdTi1HsIffnuAN8UuZEqOwjCfhLUO9dVI8lvO/MN3Jyu+dSLK1iH18ZSDe0aH2Y4ElCVfjNRSiVA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/Microsoft.Win32.Primitives.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/Microsoft.Win32.Primitives.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Microsoft.Win32.Primitives.4.0.0-beta-23015.nupkg",
+        "Microsoft.Win32.Primitives.4.0.0-beta-23015.nupkg.sha512",
+        "Microsoft.Win32.Primitives.nuspec",
+        "lib/dotnet/Microsoft.Win32.Primitives.dll",
+        "lib/net46/Microsoft.Win32.Primitives.dll",
+        "ref/dotnet/Microsoft.Win32.Primitives.dll",
+        "ref/net46/Microsoft.Win32.Primitives.dll"
+      ]
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "serviceable": false,
+      "sha": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/Newtonsoft.Json.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Newtonsoft.Json.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll"
+          ],
+          "compileAssemblies": [
+            "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll"
+          ]
+        }
+      },
+      "files": [
+        "Newtonsoft.Json.7.0.1.nupkg",
+        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "System.Collections/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "h76WuU2HfJv7k4E7PoWI/aWK+agU64vRP1Pz8uXliXo8L+pIBIFO9ZND9GUW7ThnhcjnTQ4gcaCDVZ3QURQEHg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Collections.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Collections.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Collections.4.0.10-beta-23015.nupkg",
+        "System.Collections.4.0.10-beta-23015.nupkg.sha512",
+        "System.Collections.nuspec",
+        "lib/DNXCore50/System.Collections.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Collections.dll",
+        "ref/dotnet/System.Collections.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Collections.dll"
+      ]
+    },
+    "System.Collections.Concurrent/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "yQhXGisD/0+6BvkEVgxfcaszm63Q1Q/WTWM3IV8kWN/eFTMvcsOzvGn/yAHAB6geDlO0xLdV6z9ltyIEYAZNZQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Collections.Concurrent.4.0.0-beta-23015.nupkg",
+        "System.Collections.Concurrent.4.0.0-beta-23015.nupkg.sha512",
+        "System.Collections.Concurrent.nuspec",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "ref/dotnet/System.Collections.Concurrent.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Collections.Concurrent.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Collections.NonGeneric/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "ELr9VNcsiUvmEp6zOQ27g2q6ZGyXvwlGVsWp5n5Ti+hhPSIgvFx2cDratkvob6lF0QVvEDDbeV2JXDyicQaOPQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Collections.NonGeneric.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Collections.NonGeneric.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.Collections.NonGeneric.4.0.0-beta-23015.nupkg",
+        "System.Collections.NonGeneric.4.0.0-beta-23015.nupkg.sha512",
+        "System.Collections.NonGeneric.nuspec",
+        "lib/dotnet/System.Collections.NonGeneric.dll",
+        "lib/net46/System.Collections.NonGeneric.dll",
+        "ref/dotnet/System.Collections.NonGeneric.dll",
+        "ref/net46/System.Collections.NonGeneric.dll"
+      ]
+    },
+    "System.ComponentModel.EventBasedAsync/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "xcwPFkRV5fbElhzY+X5y2XdpZhJDPkd6fX392z1kEcEp39laQqXyPsZ8OGz3edaAMBS+ZUngkL5TkLoHYAbXvg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.ComponentModel.EventBasedAsync.4.0.10-beta-23015.nupkg",
+        "System.ComponentModel.EventBasedAsync.4.0.10-beta-23015.nupkg.sha512",
+        "System.ComponentModel.EventBasedAsync.nuspec",
+        "lib/dotnet/System.ComponentModel.EventBasedAsync.dll",
+        "lib/net46/_._",
+        "ref/dotnet/System.ComponentModel.EventBasedAsync.dll",
+        "ref/net46/_._"
+      ]
+    },
+    "System.Diagnostics.Contracts/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "wX7nBadZCVC19kfgbXZnXVIg+Z6ZcCNuv+yJUDhmnsNpn+1QxoJ4UeieV6MvDgkfdTOff5NXJcQ3Po5E9TDGBA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Diagnostics.Contracts.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Diagnostics.Contracts.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Diagnostics.Contracts.4.0.0-beta-23015.nupkg",
+        "System.Diagnostics.Contracts.4.0.0-beta-23015.nupkg.sha512",
+        "System.Diagnostics.Contracts.nuspec",
+        "lib/DNXCore50/System.Diagnostics.Contracts.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Diagnostics.Contracts.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Diagnostics.Contracts.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Diagnostics.Contracts.dll",
+        "ref/win8/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Contracts.dll"
+      ]
+    },
+    "System.Diagnostics.Debug/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "5aa/i+hmCsJYfEEZ7pH0hnk3/6zGSamMD6HpmWGyNErvAjR9QqIe1wqS8b+wpKi6T1RP2cW/LvwO07ror+O0pA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Diagnostics.Debug.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Diagnostics.Debug.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Diagnostics.Debug.4.0.10-beta-23015.nupkg",
+        "System.Diagnostics.Debug.4.0.10-beta-23015.nupkg.sha512",
+        "System.Diagnostics.Debug.nuspec",
+        "lib/DNXCore50/System.Diagnostics.Debug.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Diagnostics.Debug.dll",
+        "ref/dotnet/System.Diagnostics.Debug.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Debug.dll"
+      ]
+    },
+    "System.Diagnostics.Tools/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "n4pyeIw81Qb4aED773aC3TTesO6TetwwqRhfLBholoJ42q8YUaQcbJBzSYVlBzUjiyzALoytpVMaJnuqDm0tHg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Diagnostics.Tools.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Diagnostics.Tools.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Diagnostics.Tools.4.0.0-beta-23015.nupkg",
+        "System.Diagnostics.Tools.4.0.0-beta-23015.nupkg.sha512",
+        "System.Diagnostics.Tools.nuspec",
+        "lib/DNXCore50/System.Diagnostics.Tools.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Diagnostics.Tools.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Diagnostics.Tools.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Diagnostics.Tools.dll",
+        "ref/win8/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Diagnostics.Tools.dll"
+      ]
+    },
+    "System.Diagnostics.Tracing/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "p663V8ldjuV0fjE+V1tF4l/aya7w1wAsICaE3ewzl2yfGFr81QksMgO3lYPrCYEnJqmaH9piXwOjocsh6xH+3w==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Diagnostics.Tracing.4.0.0-beta-23015.nupkg",
+        "System.Diagnostics.Tracing.4.0.0-beta-23015.nupkg.sha512",
+        "System.Diagnostics.Tracing.nuspec",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "ref/dotnet/System.Diagnostics.Tracing.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Diagnostics.Tracing.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Globalization/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "sLXg+rc2mLlHDi58dci/xzUD9LVUtZgKp6qLGgngAt5RObBqD+EcoSUbpIvl8NfEqvBjuVbnODRGFAcrfZyXVQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Globalization.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Globalization.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Globalization.4.0.10-beta-23015.nupkg",
+        "System.Globalization.4.0.10-beta-23015.nupkg.sha512",
+        "System.Globalization.nuspec",
+        "lib/DNXCore50/System.Globalization.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Globalization.dll",
+        "ref/dotnet/System.Globalization.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Globalization.dll"
+      ]
+    },
+    "System.Globalization.Calendars/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "bO4Ij3cL8p5PTDSkr9ymIdeLwEy17Gu7M3bMprMB4uOdoIXbDrDHtdcR76we7zMOe5glYfbbOvn8hUJ3TCY+ig==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Globalization.Calendars.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Globalization.Calendars.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Globalization.Calendars.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Globalization.Calendars.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Globalization.Calendars.4.0.0-beta-23015.nupkg",
+        "System.Globalization.Calendars.4.0.0-beta-23015.nupkg.sha512",
+        "System.Globalization.Calendars.nuspec",
+        "lib/DNXCore50/System.Globalization.Calendars.dll",
+        "lib/net46/System.Globalization.Calendars.dll",
+        "lib/netcore50/System.Globalization.Calendars.dll",
+        "ref/dotnet/System.Globalization.Calendars.dll",
+        "ref/net46/System.Globalization.Calendars.dll",
+        "runtimes/win8-aot/lib/netcore50/System.Globalization.Calendars.dll"
+      ]
+    },
+    "System.IO/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "cahnbhE+WXUQoDp/TELPOYMQAOA1bGVsHaPwwtk3Yw22ZtaRVnaz20yr1qK53hBGBaG1M/VloyDAqaK/Nvm2kg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.IO.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.IO.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.IO.4.0.10-beta-23015.nupkg",
+        "System.IO.4.0.10-beta-23015.nupkg.sha512",
+        "System.IO.nuspec",
+        "lib/DNXCore50/System.IO.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.IO.dll",
+        "ref/dotnet/System.IO.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.IO.dll"
+      ]
+    },
+    "System.IO.Compression/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "GI5eb134rObw9s9MsqAVTFgRfu0AIEEiUwkr9BQI3PTufzNVTA0IGGiL2Ow/ET3hO5fNbbrmJ05ZAneo866cpQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "System.IO.Compression"
+          ],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.IO.Compression.4.0.0-beta-23015.nupkg",
+        "System.IO.Compression.4.0.0-beta-23015.nupkg.sha512",
+        "System.IO.Compression.nuspec",
+        "runtime.json",
+        "lib/dotnet/System.IO.Compression.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.IO.Compression.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.IO.Compression.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.IO.Compression.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.IO.FileSystem/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "hBxWOiXLW71CZ6DE7B9kw/IxRnD2470svKB8kvHBq/wX2icRzuzt7mmFotqW6+kPYDawFezAe2yfTjTu4a14rQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.IO.FileSystem.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.IO.FileSystem.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Runtime.InteropServices": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.IO.FileSystem.Primitives": "4.0.0-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Threading.Overlapped": "4.0.0-beta-23015",
+            "System.Text.Encoding": "4.0.10-beta-23015",
+            "System.IO": "4.0.10-beta-23015",
+            "System.Collections": "4.0.10-beta-23015",
+            "System.Threading.Tasks": "4.0.10-beta-23015",
+            "System.Runtime.Extensions": "4.0.10-beta-23015",
+            "System.Text.Encoding.Extensions": "4.0.10-beta-23015",
+            "System.Threading": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.IO.FileSystem.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.IO.FileSystem.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.IO.FileSystem.4.0.0-beta-23015.nupkg",
+        "System.IO.FileSystem.4.0.0-beta-23015.nupkg.sha512",
+        "System.IO.FileSystem.nuspec",
+        "lib/DNXCore50/System.IO.FileSystem.dll",
+        "lib/net46/System.IO.FileSystem.dll",
+        "lib/netcore50/System.IO.FileSystem.dll",
+        "ref/dotnet/System.IO.FileSystem.dll",
+        "ref/net46/System.IO.FileSystem.dll"
+      ]
+    },
+    "System.IO.FileSystem.Primitives/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "FoAhaql/7bmgGoHfaZ6Kq7IXj/YLD+hRfIIxomJWmckKwu7fq3p35Le1ZeNey/7IZzopXHwOY4LeCrLKAdjk3g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.IO.FileSystem.Primitives.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.IO.FileSystem.Primitives.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.IO.FileSystem.Primitives.4.0.0-beta-23015.nupkg",
+        "System.IO.FileSystem.Primitives.4.0.0-beta-23015.nupkg.sha512",
+        "System.IO.FileSystem.Primitives.nuspec",
+        "lib/dotnet/System.IO.FileSystem.Primitives.dll",
+        "lib/net46/System.IO.FileSystem.Primitives.dll",
+        "ref/dotnet/System.IO.FileSystem.Primitives.dll",
+        "ref/net46/System.IO.FileSystem.Primitives.dll"
+      ]
+    },
+    "System.Linq/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "x8UMW8XSmx1VN6QOdVbnYd1Z6qXzgbYQk5EcMXJzsplHOurIVB9xLl68/f6h5Mp2u8ZFc8lWrS/djocmOU8xAg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.Linq.4.0.0-beta-23015.nupkg",
+        "System.Linq.4.0.0-beta-23015.nupkg.sha512",
+        "System.Linq.nuspec",
+        "lib/dotnet/System.Linq.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Linq.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Linq.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Linq.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Net.Http/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "85fL6mgqZLe1I5akCTJkhM/E9LCZ2dC5LUVAQig6Qncy+YlmiLwqOGFb2SJXN74sO+8rXtAXbpjlwkHo60NpYQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "System.Net.Http"
+          ],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Runtime.InteropServices": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Security.Cryptography.X509Certificates": "4.0.0-beta-23015",
+            "Microsoft.Win32.Primitives": "4.0.0-beta-23015",
+            "System.Threading.Tasks": "4.0.0-beta-23015",
+            "System.Diagnostics.Debug": "4.0.0-beta-23015",
+            "System.Collections": "4.0.0-beta-23015",
+            "System.Runtime.Extensions": "4.0.0-beta-23015",
+            "System.Globalization": "4.0.0-beta-23015",
+            "System.Threading": "4.0.0-beta-23015",
+            "System.IO.Compression": "4.0.0-beta-23015",
+            "System.Net.Primitives": "4.0.10-beta-23015",
+            "System.IO": "4.0.10-beta-23015",
+            "System.Text.Encoding": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Net.Http.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Net.Http.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Net.Http.4.0.0-beta-23015.nupkg",
+        "System.Net.Http.4.0.0-beta-23015.nupkg.sha512",
+        "System.Net.Http.nuspec",
+        "lib/DNXCore50/System.Net.Http.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Net.Http.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Net.Http.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Net.Primitives/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "t1r4gopyq9jCP8U4wf5XURL7EPW3ColjlVp0oCzAp/w4snYbN3FBmA2DPGPF/ed1Bivxgyt9/oBgHuf/0PtnfA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Private.Networking": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Net.Primitives.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Net.Primitives.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Net.Primitives.4.0.10-beta-23015.nupkg",
+        "System.Net.Primitives.4.0.10-beta-23015.nupkg.sha512",
+        "System.Net.Primitives.nuspec",
+        "lib/DNXCore50/System.Net.Primitives.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Net.Primitives.dll",
+        "ref/dotnet/System.Net.Primitives.dll",
+        "ref/net46/_._"
+      ]
+    },
+    "System.Net.Security/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "jdDRVVjE0EgI7+mhTh/ck9SMUqIyznfsFAHw34iazXL0wP+x30Tax6CRuaKEOCtx8Xx0Gpbnxfg+buIldoEkCg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Net.Security.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Net.Security.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Private.Networking": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Net.Security.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Net.Security.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Net.Security.4.0.0-beta-23015.nupkg",
+        "System.Net.Security.4.0.0-beta-23015.nupkg.sha512",
+        "System.Net.Security.nuspec",
+        "lib/DNXCore50/System.Net.Security.dll",
+        "lib/net46/System.Net.Security.dll",
+        "ref/dotnet/System.Net.Security.dll",
+        "ref/net46/System.Net.Security.dll"
+      ]
+    },
+    "System.Net.Sockets/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "1A4586YN5f57inzDCKaidVJxEczsES1t1kUPDpc3u28jA+DnfPM4SVhy2DxEPBZFdmVMANZHm/FuSqCLQ8A2RQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Private.Networking": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Net.Sockets.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Net.Sockets.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Net.Sockets.4.0.10-beta-23015.nupkg",
+        "System.Net.Sockets.4.0.10-beta-23015.nupkg.sha512",
+        "System.Net.Sockets.nuspec",
+        "lib/DNXCore50/System.Net.Sockets.dll",
+        "ref/dotnet/System.Net.Sockets.dll"
+      ]
+    },
+    "System.Private.Networking/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "Qy/d3183ylts66kos4Jm9zz5QR0I30gW0FK7CR2O+XnwoPK+sG+okM7Mz/6nWIWOmtSm4n+nwjqfKRBx5moa0A==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Runtime.InteropServices": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Security.Cryptography.X509Certificates": "4.0.0-beta-23015",
+            "System.Collections": "4.0.0-beta-23015",
+            "System.Collections.Concurrent": "4.0.0-beta-23015",
+            "System.Diagnostics.Tracing": "4.0.0-beta-23015",
+            "System.Threading": "4.0.0-beta-23015",
+            "System.Threading.Tasks": "4.0.0-beta-23015",
+            "System.Collections.NonGeneric": "4.0.0-beta-23015",
+            "System.Security.SecureString": "4.0.0-beta-23015",
+            "System.Security.Principal.Windows": "4.0.0-beta-23015",
+            "Microsoft.Win32.Primitives": "4.0.0-beta-23015",
+            "System.IO.FileSystem": "4.0.0-beta-23015",
+            "System.Threading.Overlapped": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Globalization": "4.0.0-beta-23015",
+            "System.IO.FileSystem.Primitives": "4.0.0-beta-23015",
+            "System.IO": "4.0.10-beta-23015",
+            "System.Diagnostics.Debug": "4.0.10-beta-23015",
+            "System.Threading.ThreadPool": "4.0.10-beta-23015",
+            "System.ComponentModel.EventBasedAsync": "4.0.10-beta-23015",
+            "System.Runtime.Extensions": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Private.Networking.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Private.Networking.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Private.Networking.4.0.0-beta-23015.nupkg",
+        "System.Private.Networking.4.0.0-beta-23015.nupkg.sha512",
+        "System.Private.Networking.nuspec",
+        "lib/DNXCore50/System.Private.Networking.dll",
+        "lib/netcore50/System.Private.Networking.dll",
+        "ref/dnxcore50/_._",
+        "ref/netcore50/_._"
+      ]
+    },
+    "System.Private.Uri/4.0.0-beta-23021": {
+      "serviceable": false,
+      "sha": "yYrYHWfW1FPST5UG+Qc3dTpSZh+VdSMxTt5xX7j3g7KxRwNYohHRmef3jPO2CbdvG924LIDmbUJbwPxcMDruyA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Private.Uri.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Private.Uri.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Private.Uri.4.0.0-beta-23021.nupkg",
+        "System.Private.Uri.4.0.0-beta-23021.nupkg.sha512",
+        "System.Private.Uri.nuspec",
+        "lib/DNXCore50/System.Private.Uri.dll",
+        "lib/netcore50/System.Private.Uri.dll",
+        "ref/dnxcore50/_._",
+        "ref/netcore50/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Private.Uri.dll"
+      ]
+    },
+    "System.Reflection/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "TMf+u1eawXLpWM3HMs1xge+4snq8upmH7J00ppFTKRiTx0o8Upznas8A4ggq0GUCuDrYmb4NCkc+ErmO+y+JQA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Reflection.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Reflection.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Reflection.4.0.10-beta-23015.nupkg",
+        "System.Reflection.4.0.10-beta-23015.nupkg.sha512",
+        "System.Reflection.nuspec",
+        "lib/DNXCore50/System.Reflection.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Reflection.dll",
+        "ref/dotnet/System.Reflection.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Reflection.dll"
+      ]
+    },
+    "System.Resources.ResourceManager/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "2Y0tn+LcIwJ2iV+Fs8PwwyvfbOv0IjwUf9ad6ZQgqBywfDS/FZobjBzZPmBNbdI/eUDr5ABzeWsK6mZG+261vA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Resources.ResourceManager.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Resources.ResourceManager.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Resources.ResourceManager.4.0.0-beta-23015.nupkg",
+        "System.Resources.ResourceManager.4.0.0-beta-23015.nupkg.sha512",
+        "System.Resources.ResourceManager.nuspec",
+        "lib/DNXCore50/System.Resources.ResourceManager.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Resources.ResourceManager.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Resources.ResourceManager.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Resources.ResourceManager.dll",
+        "ref/win8/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Resources.ResourceManager.dll"
+      ]
+    },
+    "System.Runtime/4.0.20-beta-23021": {
+      "serviceable": false,
+      "sha": "squWHPO8TzlGaVBvJ5sdO1DWg7qzUK+CXLVvESQaIl/gqtaGvi81oN2HA7F7+uYwQM2A/LpjWfREfqX8S3UnxA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Private.Uri": "4.0.0-beta-23021"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Runtime.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Runtime.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Runtime.4.0.20-beta-23021.nupkg",
+        "System.Runtime.4.0.20-beta-23021.nupkg.sha512",
+        "System.Runtime.nuspec",
+        "lib/DNXCore50/System.Runtime.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Runtime.dll",
+        "ref/dotnet/System.Runtime.dll",
+        "ref/dotnet/System.Runtime.xml",
+        "ref/dotnet/de/System.Runtime.xml",
+        "ref/dotnet/es/System.Runtime.xml",
+        "ref/dotnet/fr/System.Runtime.xml",
+        "ref/dotnet/it/System.Runtime.xml",
+        "ref/dotnet/ja/System.Runtime.xml",
+        "ref/dotnet/ko/System.Runtime.xml",
+        "ref/dotnet/ru/System.Runtime.xml",
+        "ref/dotnet/zh-hans/System.Runtime.xml",
+        "ref/dotnet/zh-hant/System.Runtime.xml",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.dll"
+      ]
+    },
+    "System.Runtime.Extensions/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "DACs/8NO1AtZJVn193wgNFquGkbnyWYd29UY22LmpGYR58iR7APpGFSMfUPxPw9upKsCZto4McaytPm4dOGy3g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Runtime.Extensions.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Runtime.Extensions.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Runtime.Extensions.4.0.10-beta-23015.nupkg",
+        "System.Runtime.Extensions.4.0.10-beta-23015.nupkg.sha512",
+        "System.Runtime.Extensions.nuspec",
+        "lib/DNXCore50/System.Runtime.Extensions.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Runtime.Extensions.dll",
+        "ref/dotnet/System.Runtime.Extensions.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.Extensions.dll"
+      ]
+    },
+    "System.Runtime.Handles/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "FWWFRdokgO57TYM5P7lpHYUjU6IKPIBfsC/08p+J70rYOFhJE9F9W4VGjU6Yu9YZnNJBGtPZV4E4RRyBe61bSg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Runtime.Handles.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Runtime.Handles.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Runtime.Handles.4.0.0-beta-23015.nupkg",
+        "System.Runtime.Handles.4.0.0-beta-23015.nupkg.sha512",
+        "System.Runtime.Handles.nuspec",
+        "lib/DNXCore50/System.Runtime.Handles.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Runtime.Handles.dll",
+        "ref/dotnet/System.Runtime.Handles.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.Handles.dll"
+      ]
+    },
+    "System.Runtime.InteropServices/4.0.20-beta-23015": {
+      "serviceable": false,
+      "sha": "TJkL7gqztt1p8RNVZbcf+axAqKAHUXhiNy+PGTHdC9TjoRKl2RqlxIkh9E3H1P2VkL/AuZe351tPY37IGEB1JA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Runtime.InteropServices.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Runtime.InteropServices.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Runtime.InteropServices.4.0.20-beta-23015.nupkg",
+        "System.Runtime.InteropServices.4.0.20-beta-23015.nupkg.sha512",
+        "System.Runtime.InteropServices.nuspec",
+        "lib/DNXCore50/System.Runtime.InteropServices.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Runtime.InteropServices.dll",
+        "ref/dotnet/System.Runtime.InteropServices.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Runtime.InteropServices.dll"
+      ]
+    },
+    "System.Runtime.Numerics/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "jsMbIdWFdiPkdcoMxPuceeMJ+oGfgt7lqKjzOjH1zT9CL+QSBCypzscWmW+fwj867V8TnN5bkAgizG3haIe3RQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.Runtime.Numerics.4.0.0-beta-23015.nupkg",
+        "System.Runtime.Numerics.4.0.0-beta-23015.nupkg.sha512",
+        "System.Runtime.Numerics.nuspec",
+        "lib/dotnet/System.Runtime.Numerics.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Runtime.Numerics.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Runtime.Numerics.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.Numerics.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Security.Claims/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "6GVQQNGRe71SqN6bTTSJmNuU6zvKeDqUzvMECwc+foj3gOCKXPBSKFlyrc/EXTXrVBqpBjFvkBKDA+m2RLsHOA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Claims.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Claims.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.Security.Claims.4.0.0-beta-23015.nupkg",
+        "System.Security.Claims.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Claims.nuspec",
+        "lib/dotnet/System.Security.Claims.dll",
+        "lib/net46/System.Security.Claims.dll",
+        "ref/dotnet/System.Security.Claims.dll",
+        "ref/net46/System.Security.Claims.dll"
+      ]
+    },
+    "System.Security.Cryptography.Encoding/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "iOxUmIWGdvdR7kDoTWfQ2BfZ3KM4GN1pIAumn3svxBWrkl5W/hHMM54SXkq3MlH/X2tvoyJvSXxJdY4jmhp2sw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.Encoding.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.Encoding.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Runtime.InteropServices": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Diagnostics.Debug": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Encoding.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Encoding.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.Encoding.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.Encoding.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.Encoding.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.Encoding.dll",
+        "lib/net46/System.Security.Cryptography.Encoding.dll",
+        "ref/dotnet/System.Security.Cryptography.Encoding.dll",
+        "ref/net46/System.Security.Cryptography.Encoding.dll"
+      ]
+    },
+    "System.Security.Cryptography.Encryption/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "YAJmLoNQTB/VDBdIQh3fK54CIpebXJPekNu5DUqwP0jr1/IPYqOhQ6qPyU/j+nvrYNXaoCYTCikNLv11jlAX7w==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.Encryption.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.Encryption.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Threading.Tasks": "4.0.0-beta-23015",
+            "System.Globalization": "4.0.0-beta-23015",
+            "System.IO": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Encryption.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Encryption.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.Encryption.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.Encryption.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.Encryption.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.Encryption.dll",
+        "lib/net46/System.Security.Cryptography.Encryption.dll",
+        "ref/dotnet/System.Security.Cryptography.Encryption.dll",
+        "ref/net46/System.Security.Cryptography.Encryption.dll"
+      ]
+    },
+    "System.Security.Cryptography.Hashing/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "qvqIpccCw027KUe5sMYtHJitOeN0s2A4URQvgbv3ucrpgL3mlEsh5yLjleXXgbRhqeqUbGGOuoz7f/vIx0FWpA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.Hashing.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.Hashing.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.IO": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Hashing.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Hashing.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.Hashing.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.Hashing.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.Hashing.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.Hashing.dll",
+        "lib/net46/System.Security.Cryptography.Hashing.dll",
+        "ref/dotnet/System.Security.Cryptography.Hashing.dll",
+        "ref/net46/System.Security.Cryptography.Hashing.dll"
+      ]
+    },
+    "System.Security.Cryptography.Hashing.Algorithms/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "04Rw7ZdCE6odKaG+z7GQP8MIpRyMQH+PtmNWnCAK05sFRFdyNMuWLp8v0Ny0DoSeBGDpiazI/UUzzC9B3CEXXA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.Hashing.Algorithms.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.Hashing.Algorithms.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Security.Cryptography.RandomNumberGenerator": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Hashing": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Hashing.Algorithms.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.Hashing.Algorithms.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.Hashing.Algorithms.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.Hashing.Algorithms.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.Hashing.Algorithms.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.Hashing.Algorithms.dll",
+        "lib/net46/System.Security.Cryptography.Hashing.Algorithms.dll",
+        "ref/dotnet/System.Security.Cryptography.Hashing.Algorithms.dll",
+        "ref/net46/System.Security.Cryptography.Hashing.Algorithms.dll"
+      ]
+    },
+    "System.Security.Cryptography.RandomNumberGenerator/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "0XQK2tO7plzRxfK7ABi4ZERybgXpa1QcqTorzATLb7jw098IVMcfRjdQNP5W/tLd3q/uiAO5CMBcohJ542dQPQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.RandomNumberGenerator.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.RandomNumberGenerator.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.0-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Runtime.InteropServices": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.RandomNumberGenerator.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.RandomNumberGenerator.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.RandomNumberGenerator.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.RandomNumberGenerator.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.RandomNumberGenerator.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.RandomNumberGenerator.dll",
+        "lib/net46/System.Security.Cryptography.RandomNumberGenerator.dll",
+        "ref/dotnet/System.Security.Cryptography.RandomNumberGenerator.dll",
+        "ref/net46/System.Security.Cryptography.RandomNumberGenerator.dll"
+      ]
+    },
+    "System.Security.Cryptography.RSA/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "QDYPtehCMi1+VJFdTD5A7HmarMKn2rNBB8AnZdQRtDHN1HLSefbZgUF+RsyJfuJTFhenpZea8y9cby5dtL0qkw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.RSA.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.RSA.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.0-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encoding": "4.0.0-beta-23015",
+            "System.IO": "4.0.0-beta-23015",
+            "System.Reflection": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Hashing": "4.0.0-beta-23015",
+            "System.Diagnostics.Debug": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Runtime.InteropServices": "4.0.0-beta-23015",
+            "System.Runtime.Extensions": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-23015",
+            "System.Threading": "4.0.0-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.RSA.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.RSA.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.RSA.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.RSA.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.RSA.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.RSA.dll",
+        "lib/net46/System.Security.Cryptography.RSA.dll",
+        "ref/dotnet/System.Security.Cryptography.RSA.dll",
+        "ref/net46/System.Security.Cryptography.RSA.dll"
+      ]
+    },
+    "System.Security.Cryptography.X509Certificates/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "JfDpjg7qfxjcVF1BBHT9iJw8UDXjnJmHHsX0jRvh3PxcNohggb+uEZlbgyC1u6nYWWC6AqUyptPOfJBdZi4zwQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Cryptography.X509Certificates.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Cryptography.X509Certificates.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Runtime.InteropServices": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Security.Cryptography.RSA": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encoding": "4.0.0-beta-23015",
+            "System.Globalization": "4.0.0-beta-23015",
+            "System.Diagnostics.Debug": "4.0.0-beta-23015",
+            "System.Runtime.Numerics": "4.0.0-beta-23015",
+            "System.IO": "4.0.0-beta-23015",
+            "System.Globalization.Calendars": "4.0.0-beta-23015",
+            "System.Threading": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Hashing": "4.0.0-beta-23015",
+            "System.IO.FileSystem": "4.0.0-beta-23015",
+            "System.Runtime.Extensions": "4.0.10-beta-23015",
+            "System.Text.Encoding": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.X509Certificates.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Cryptography.X509Certificates.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Cryptography.X509Certificates.4.0.0-beta-23015.nupkg",
+        "System.Security.Cryptography.X509Certificates.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Cryptography.X509Certificates.nuspec",
+        "lib/DNXCore50/System.Security.Cryptography.X509Certificates.dll",
+        "lib/net46/System.Security.Cryptography.X509Certificates.dll",
+        "ref/dotnet/System.Security.Cryptography.X509Certificates.dll",
+        "ref/net46/System.Security.Cryptography.X509Certificates.dll"
+      ]
+    },
+    "System.Security.Principal/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "pcF0AsD3JJlBu5UEE1kKvPdU3wRKOF/8m7BwTfI7x4QVDtNlW6e5m22JhqIEwwFOckKyLIlukvN5qbdiwlNDMg==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "System.Security.Principal.4.0.0-beta-23015.nupkg",
+        "System.Security.Principal.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Principal.nuspec",
+        "lib/dotnet/System.Security.Principal.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Security.Principal.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Security.Principal.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Security.Principal.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Security.Principal.Windows/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "tN1MCadIfGvAlsxZzGn36fv5SgwN2iSeszJJ9O1WwMmG9HuVbIDz7Ses1P8irLavNpu1bPP1wfXI26G5v/0SAw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.Principal.Windows.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.Principal.Windows.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.0-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Collections": "4.0.0-beta-23015",
+            "System.Runtime.InteropServices": "4.0.0-beta-23015",
+            "System.Security.Claims": "4.0.0-beta-23015",
+            "System.Security.Principal": "4.0.0-beta-23015",
+            "System.Diagnostics.Debug": "4.0.0-beta-23015",
+            "System.Reflection": "4.0.0-beta-23015",
+            "System.Runtime.Extensions": "4.0.0-beta-23015",
+            "System.Threading": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.Principal.Windows.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.Principal.Windows.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.Principal.Windows.4.0.0-beta-23015.nupkg",
+        "System.Security.Principal.Windows.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.Principal.Windows.nuspec",
+        "lib/DNXCore50/System.Security.Principal.Windows.dll",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "ref/dotnet/System.Security.Principal.Windows.dll",
+        "ref/net46/System.Security.Principal.Windows.dll"
+      ]
+    },
+    "System.Security.SecureString/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "jac3nn4PHzz2D2jm9GnITBHB8jf8gZKW/0TGjM7J28VPrQ+W0C6qffwx20zerurE6q4dDgryekY+H8pAgGT5MA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Security.SecureString.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Security.SecureString.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.20-beta-23015",
+            "System.Runtime.InteropServices": "4.0.20-beta-23015",
+            "System.Resources.ResourceManager": "4.0.0-beta-23015",
+            "System.Runtime.Handles": "4.0.0-beta-23015",
+            "System.Security.Cryptography.Encryption": "4.0.0-beta-23015",
+            "System.Threading": "4.0.10-beta-23015"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Security.SecureString.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Security.SecureString.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Security.SecureString.4.0.0-beta-23015.nupkg",
+        "System.Security.SecureString.4.0.0-beta-23015.nupkg.sha512",
+        "System.Security.SecureString.nuspec",
+        "lib/DNXCore50/System.Security.SecureString.dll",
+        "lib/net46/System.Security.SecureString.dll",
+        "ref/dotnet/System.Security.SecureString.dll",
+        "ref/net46/System.Security.SecureString.dll"
+      ]
+    },
+    "System.Text.Encoding/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "TBA71ZX41sL5qeFlG1SaNcMjZJzmoPFZrpbyrZTWhw3mtC04Az72G/3o6oyi+cC/myk6yq5Vm/CSCwiv3jKN6Q==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Text.Encoding.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Text.Encoding.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Text.Encoding.4.0.10-beta-23015.nupkg",
+        "System.Text.Encoding.4.0.10-beta-23015.nupkg.sha512",
+        "System.Text.Encoding.nuspec",
+        "lib/DNXCore50/System.Text.Encoding.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Text.Encoding.dll",
+        "ref/dotnet/System.Text.Encoding.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.dll"
+      ]
+    },
+    "System.Text.Encoding.Extensions/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "ZWipSVE1XhbGaIeJ+8w7oovP2dXqMZ5VDiKZB+cOHBao3lSBB/hZ4aQG3qDdBSNiCCHTnp6DrkHzqVNKYa0fiw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Text.Encoding.Extensions.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Text.Encoding.Extensions.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Text.Encoding.Extensions.4.0.10-beta-23015.nupkg",
+        "System.Text.Encoding.Extensions.4.0.10-beta-23015.nupkg.sha512",
+        "System.Text.Encoding.Extensions.nuspec",
+        "lib/DNXCore50/System.Text.Encoding.Extensions.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Text.Encoding.Extensions.dll",
+        "ref/dotnet/System.Text.Encoding.Extensions.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Text.Encoding.Extensions.dll"
+      ]
+    },
+    "System.Threading/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "yZMuWGjoceSjSczXSP9xvtsbTaHDRLoD4M8aAFj/OzMrX7uwGF3eDvPX5rzAWCNiN+udp5aSvHBPq8keBtbPaw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Threading.4.0.0-beta-23015.nupkg",
+        "System.Threading.4.0.0-beta-23015.nupkg.sha512",
+        "System.Threading.nuspec",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "ref/dotnet/System.Threading.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Threading.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Threading.Overlapped/4.0.0-beta-23015": {
+      "serviceable": false,
+      "sha": "Y4eHT2nWNZzHnAh8k9Mu6Z7XC2z8fnz3n/EnmUZrI1ZOJMphVPBq9UvHDVLq5HLmBcRyiQZwMaWaxaYNPc12zw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Threading.Overlapped.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Threading.Overlapped.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Threading.Overlapped.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Threading.Overlapped.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Threading.Overlapped.4.0.0-beta-23015.nupkg",
+        "System.Threading.Overlapped.4.0.0-beta-23015.nupkg.sha512",
+        "System.Threading.Overlapped.nuspec",
+        "lib/DNXCore50/System.Threading.Overlapped.dll",
+        "lib/net46/System.Threading.Overlapped.dll",
+        "lib/netcore50/System.Threading.Overlapped.dll",
+        "ref/dotnet/System.Threading.Overlapped.dll",
+        "ref/net46/System.Threading.Overlapped.dll"
+      ]
+    },
+    "System.Threading.Tasks/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "USI0W4Dj4zgZNu9P735yWXa2gQStuL83vRqhYBXxgRhq+yda2oq25FMGe69r9WRkhCuZsQOIeLDNl5OEhnu8tA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Threading.Tasks.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Threading.Tasks.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Threading.Tasks.4.0.10-beta-23015.nupkg",
+        "System.Threading.Tasks.4.0.10-beta-23015.nupkg.sha512",
+        "System.Threading.Tasks.nuspec",
+        "lib/DNXCore50/System.Threading.Tasks.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Threading.Tasks.dll",
+        "ref/dotnet/System.Threading.Tasks.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Threading.Tasks.dll"
+      ]
+    },
+    "System.Threading.ThreadPool/4.0.10-beta-23015": {
+      "serviceable": false,
+      "sha": "vxn1UJ8ZvBcZA+a478qskgXtuiN/B+mqooxkFAH9xxcwRFAcY0P1AXOVbeXp+R82UKotPNJT26Y4ZCTkeik2hQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib"
+          ],
+          "runtimeAssemblies": [
+            "lib/net46/System.Threading.ThreadPool.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net46/System.Threading.ThreadPool.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/DNXCore50/System.Threading.ThreadPool.dll"
+          ],
+          "compileAssemblies": [
+            "lib/DNXCore50/System.Threading.ThreadPool.dll"
+          ]
+        }
+      },
+      "files": [
+        "System.Threading.ThreadPool.4.0.10-beta-23015.nupkg",
+        "System.Threading.ThreadPool.4.0.10-beta-23015.nupkg.sha512",
+        "System.Threading.ThreadPool.nuspec",
+        "lib/DNXCore50/System.Threading.ThreadPool.dll",
+        "lib/net46/System.Threading.ThreadPool.dll",
+        "ref/dotnet/System.Threading.ThreadPool.dll",
+        "ref/net46/System.Threading.ThreadPool.dll"
+      ]
+    }
+  }
+}
