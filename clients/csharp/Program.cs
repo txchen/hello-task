@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Security.Cryptography;
 using System.Diagnostics;
+using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
@@ -11,34 +12,51 @@ namespace DnxConsole
 {
     public class Program
     {
-        private static string BaseUrl = "http://localhost:10000";
-
         public static void Main(string[] args)
+        {
+            MainAsync().Wait();
+        }
+
+        private static async Task MainAsync()
         {
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            var urls = GetPostsUrls();
+            var urls = await GetPostsUrls();
             Console.WriteLine("there are {0} posts in all.", urls.Length);
             var md5s = new string[urls.Length];
-            Parallel.ForEach(urls, new ParallelOptions { MaxDegreeOfParallelism = 10 }, (url, pls, i) => {
-                md5s[i] = FetchAndHash(url);
-            });
+
+            using (var semaphore = new SemaphoreSlim(10))
+            {
+                var tasks = urls.Select(async (url, i) => {
+                    await semaphore.WaitAsync();
+                    try
+                    {
+                        md5s[i] = await FetchAndHash(url);
+                    }
+                    finally
+                    {
+                        semaphore.Release();
+                    }
+                });
+                await Task.WhenAll(tasks);
+            }
             Console.WriteLine("final md5: " + GetMd5(String.Join("", md5s)));
             Console.WriteLine("time elapsed: " + stopWatch.ElapsedMilliseconds);
+            await Task.FromResult(0);
         }
 
-        private static string GetHTTPBody(string url)
+        private static async Task<string> GetHTTPBody(string url)
         {
             using (var client = new HttpClient())
             {
-                var response = client.GetAsync(url).Result;
-                return response.Content.ReadAsStringAsync().Result;
+                var response = await client.GetAsync(url);
+                return await response.Content.ReadAsStringAsync();
             }
         }
 
-        private static string[] GetPostsUrls()
+        private static async Task<string[]> GetPostsUrls()
         {
-            return JsonConvert.DeserializeObject<String[]>(GetHTTPBody("http://localhost:10000/posts"));
+            return JsonConvert.DeserializeObject<String[]>(await GetHTTPBody("http://localhost:10000/posts"));
         }
 
         private static string GetMd5(string content)
@@ -56,9 +74,9 @@ namespace DnxConsole
             }
         }
 
-        private static string FetchAndHash(string url)
+        private static async Task<string> FetchAndHash(string url)
         {
-            return GetMd5(GetHTTPBody("http://localhost:10000" + url));
+            return GetMd5(await GetHTTPBody("http://localhost:10000" + url));
         }
     }
 }
