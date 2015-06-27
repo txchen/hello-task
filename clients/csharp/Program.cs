@@ -19,8 +19,7 @@ namespace DnxConsole
 
         private static async Task MainAsync()
         {
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
+            Stopwatch stopWatch = Stopwatch.StartNew();
             var urls = await GetPostsUrls();
             Console.WriteLine("there are {0} posts in all.", urls.Length);
             var md5s = new string[urls.Length];
