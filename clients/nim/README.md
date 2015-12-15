@@ -3,5 +3,6 @@
 To run:
 
 ```
-$ nim c --threads:on main.nim 
+$ nim c --threads:on main.nim
+$ ./main
 ```

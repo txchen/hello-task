@@ -1,10 +1,8 @@
-import httpclient, json, md5, threadpool, strutils, os, times
+import httpclient, json, md5, threadpool, strutils, os, times, streams
 
 proc getPostMd5(url: string): string =
   # httpclient is not gcsafe, so far cannot used in spawn
-  #let content = getContent("http://localhost:10000" & url)
-  sleep(1)
-  let content = url
+  let content = getContent("http://localhost:10000" & url)
   result = getMD5(content)
 
 proc main() =
