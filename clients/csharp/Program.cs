@@ -60,7 +60,7 @@ namespace DnxConsole
 
         private static string GetMd5(string content)
         {
-            using (MD5 md5 = new MD5CryptoServiceProvider())
+            using (MD5 md5 = MD5.Create())
             {
                 var bytesToHash = Encoding.UTF8.GetBytes(content);
                 var result = md5.ComputeHash(bytesToHash);
